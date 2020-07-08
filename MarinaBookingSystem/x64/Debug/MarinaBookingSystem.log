@@ -1,0 +1,99 @@
+﻿  MarinaBookingSystem.cpp
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(14,13): error C2065:  'Booking': undeclared identifier
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(14,6): error C2923:  'std::vector': 'Booking' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(334,37): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(14,30): error C2133:  'Bookings': unknown size
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(14,22): error C2512:  'std::vector': no appropriate default constructor available
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(335,1): message :  see declaration of 'std::vector'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(23,40): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::empty': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(23,40): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(23,40): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(23,40): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(23,40): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C2446:  '<': no conversion from 'unsigned __int64 (__cdecl std::vector<Boat,std::allocator<_Ty>>::* )(void) noexcept const' to 'int'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C2446:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C2446:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C2446:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,50): error C2446:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(26,46): message :  There is no context in which this conversion is possible
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C2446:  '<': no conversion from 'unsigned __int64 (__cdecl std::vector<Boat,std::allocator<_Ty>>::* )(void) noexcept const' to 'int'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C2446:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C2446:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C2446:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,46): error C2446:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(49,42): message :  There is no context in which this conversion is possible
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C2446:  '<': no conversion from 'unsigned __int64 (__cdecl std::vector<Boat,std::allocator<_Ty>>::* )(void) noexcept const' to 'int'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C2446:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C2446:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C2446:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,46): error C2446:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(62,42): message :  There is no context in which this conversion is possible
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(79,51): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::begin': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(79,51): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(79,51): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(79,51): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(79,51): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(82,46): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::begin': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(82,46): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(82,46): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(82,46): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(82,46): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(88,51): error C3867:  'std::vector<Boat,std::allocator<_Ty>>::begin': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(88,51): error C3867:         with
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(88,51): error C3867:         [
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(88,51): error C3867:             _Ty=Boat
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(88,51): error C3867:         ]
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(131,38): error C3867:  'std::vector<_Ty,_Alloc>::size': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(131,38): error C2446:  '<': no conversion from 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type (__cdecl std::vector::* )(void) noexcept const' to 'int'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(131,34): message :  There is no context in which this conversion is possible
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(137,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(137,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(138,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(138,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(139,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(139,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(140,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(140,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(141,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(141,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(142,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(142,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(143,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(143,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(144,26): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1471,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\vector(1461,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  SailBoat.cpp
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\MarinaBookingSystem.cpp(144,26): message :  while trying to match the argument list '(std::vector, int)'
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\SailBoat.cpp(4,16): error C2011:  'SailBoat': 'class' type redefinition
+  Generating Code...
+C:\Users\Life\source\repos\Object Orientated Programming C Plus Plus\MarinaBookingSystem\SailBoat.h(2): message :  see declaration of 'SailBoat'
